@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Flask = "==1.1.2"
+marshmallow = "*"
+flask-sqlalchemy = "*"
+psycopg2-binary = "*"
+pytest = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
